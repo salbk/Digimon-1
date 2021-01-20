@@ -9,7 +9,7 @@
     <md-card class="md-layout-item md-size-100" v-if="Digimon"> <!-- v-if controllo inutile -->
 
       <md-card-header>
-        <md-card-header-text>
+        <md-card-header-text> ciao
           <span class="md-title">{{ Digimon.name }}</span> <!-- Digimon->oggetto name, img, level ->dati API per prendere dati dentro oggetti -> . -->
         </md-card-header-text>
 
